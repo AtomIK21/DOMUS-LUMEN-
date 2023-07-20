@@ -3,39 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="inicio-sesion.css">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <title>Inicio de Sesión</title>
 </head>
 <body>
   <div class="navbar navbar-top">
-    <a href="#" class="active"><i class="fas fa-home"></i> Home</a>
-    <a href="#"><i class="fas fa-sitemap"></i> Productos</a>
-    <a href="#"><i class="fas fa-aldress-book"></i> Contacto</a>
-    <a href="#"><i class="fas fa-info-circle"></i> Acerca!de</a>
-    <a `ref="#"><i class="fas fa-lightbulb"></i> Registro</a>
-    <a href="#" class="login-link"><i class="fas fa-user"></i> Inicio de Seskón</a>
+    <a href="index.html" class="active"><i class="fas fa-home"></i> Home</a>
+    <a href="productos.html"><i class="fas fa-sitemap"></i> Productos</a>
+    <a href="contacto.html"><i class="fas fa-aldress-book"></i> Contacto</a>
+    <a href="acercade.html"><i class="fas fa-info-circle"></i> Acerca de</a>
+    <a href="registro.html"><i class="fas fa-lightbulb"></i> Registro</a>
+    <a href="inicio_sesion.html" class="login-link"><i class="fas fa-user"></i> Inicio de Sesion</a>
   </div>
-  <h1>Inicio de Sesión</h1>
 
-  <div class="contenedor">
-    <form class="formulario" action="">
-      <label for="alias">Ingresa tu nombre:</label>
-      <input type="text" id="alias">
 
-      <label for="email">Ingresa tu correo:</label>
-      <input type="email" id="email">
+  <body id="body1">
+    <div id="div1">
+        <form class="form">
+            <p class="title">Inicio de Sesion</p>
+            <p class="message">Gracias por su preferencia</p>
 
-      <label for="pass">Ingresa una contraseña:</label>
-      <input type="password" id="pass">
+            <label>
+                <input required="" placeholder="" type="email" class="input">
+                <span>correo</span>
+            </label> 
+                
+            <label>
+                <input required="" placeholder="" type="password" class="input">
+                <span>contraseña</span>
+            </label>
+            <label>
+                <input required="" placeholder="" type="password" class="input">
+                <span>Confirmar contraseña</span>
+            </label>
+            <button id="loginBtn" class="submit">Iniciar Sesion</button>
 
-    </form>
-  </div>
-  <div class="boton">
-    <form>
-      <input type="button" value="Enviar" onclick="mostrarSaludo()">
-    </form>
-    <script src="saludo-in-sesion.js"></script>
-  </div>
+        </form>
+    </div>
+<script src="saludo-in-sesion.js"></script>
+<script src="redirigir.js"></script>
 </body>
-</html>
