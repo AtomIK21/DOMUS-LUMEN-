@@ -1,0 +1,310 @@
+/* Assuming there's a wrapper around the entire content, you can use the following styles: */
+.dad {
+  align-items: center;
+  display: center;
+}
+.wrapper {
+    display: flex;
+    justify-content: center; /* Center the button horizontally */
+    align-items: center; /* Center the button vertically */
+    height: 100vh; /* This height value is an example; adjust as needed */
+    background-color: #ffffff; /* Replace with your background color */
+    padding: 20px; /* Adjust as needed */
+  }
+  
+  .footer-rectangle {
+    width: 100%;
+    height: 100px; /* Example height; adjust as needed */
+    background-color: #cccccc; /* Replace with your desired color */
+  }
+  
+  .centered-button {
+    display: flex;
+    justify-content: center; /* Center the button horizontally within the container */
+    margin-top: 30px; /* Adjust as needed */
+  }
+  
+  .cta {
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .cta span {
+    padding-bottom: 7px;
+    letter-spacing: 4px;
+    font-size: 14px;
+    padding-right: 15px;
+    text-transform: uppercase;
+  }
+  
+  .cta svg {
+    transform: translateX(-8px);
+    transition: all 0.3s ease;
+  }
+  
+  .cta:hover svg {
+    transform: translateX(0);
+  }
+  
+  .cta:active svg {
+    transform: scale(0.9);
+  }
+  
+  .hover-underline-animation {
+    position: relative;
+    color: black;
+    padding-bottom: 20px;
+  }
+  
+  .hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .cta:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+
+/* PLAN 1 */
+
+.plan {
+    display: inline-block;
+    margin-bottom: 2rem;
+    width: 320px;
+    flex-direction: column;
+    border-radius: 0.25rem;
+    background-color: #94fc4e;
+    padding: 50px;
+    margin: 13px;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    color: #fff
+  }
+  
+  .price {
+    font-size: 3.75rem;
+    line-height: 1;
+    font-weight: 700;
+    color: #fff
+  }
+  
+  .desc {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.625;
+    color: rgb(255, 255, 255);
+  }
+  
+  .lists {
+    margin-bottom: 1.5rem;
+    flex: 1 1 0%;
+    color: rgb(255, 255, 255);
+  }
+  
+  .lists .list {
+    margin-bottom: 0.5rem;
+    display: flex;
+    margin-left: 0.5rem
+  }
+  
+  .lists .list svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    flex-shrink: 0;
+    margin-right: 0.5rem;
+    color: rgb(255, 255, 255);
+  }
+  
+  .action {
+    border: none;
+    outline: none;
+    display: inline-block;
+    border-radius: 0.25rem;
+    background-color: rgb(255, 255, 255);
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: #94ff4d;
+    text-decoration:double;
+    
+  }
+
+/* PLAN 2 */
+
+.plan2 {
+    display: inline-block;
+    margin-bottom: 2rem;
+    width: 320px;
+    flex-direction: column;
+    border-radius: 0.25rem;
+    background-color: #ccff00;
+    padding: 50px;
+    margin: 13px;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    color: #fff
+  }
+  
+  .price {
+    font-size: 3.75rem;
+    line-height: 1;
+    font-weight: 700;
+    color: #fff
+  }
+  
+  .desc {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.625;
+    color: rgb(255, 255, 255);
+  }
+  
+  .lists {
+    margin-bottom: 1.5rem;
+    flex: 1 1 0%;
+    color: rgb(255, 255, 255);
+  }
+  
+  .lists .list {
+    margin-bottom: 0.5rem;
+    display: flex;
+    margin-left: 0.5rem
+  }
+  
+  .lists .list svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    flex-shrink: 0;
+    margin-right: 0.5rem;
+    color: rgb(255, 255, 255);
+  }
+  
+  .action2 {
+    border: none;
+    outline: none;
+    display: inline-block;
+    border-radius: 0.25rem;
+    background-color: rgb(255, 255, 255);
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: #ccff00;
+    text-decoration:double;
+    
+  }
+
+/* PLAN 3 */
+
+.plan3 {
+    display: inline-block;
+    margin-bottom: 2rem;
+    width: 320px;
+    flex-direction: column;
+    border-radius: 0.25rem;
+    background-color: #fcc84e;
+    padding: 50px;
+    margin: 13px;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    color: #fff
+  }
+  
+  .price {
+    font-size: 3.75rem;
+    line-height: 1;
+    font-weight: 700;
+    color: #fff
+  }
+  
+  .desc {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.625;
+    color: rgb(255, 255, 255);
+  }
+  
+  .lists {
+    margin-bottom: 1.5rem;
+    flex: 1 1 0%;
+    color: rgb(255, 255, 255);
+  }
+  
+  .lists .list {
+    margin-bottom: 0.5rem;
+    display: flex;
+    margin-left: 0.5rem
+  }
+  
+  .lists .list svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    flex-shrink: 0;
+    margin-right: 0.5rem;
+    color: rgb(255, 255, 255);
+  }
+  
+  .action3 {
+    border: none;
+    outline: none;
+    display: inline-block;
+    border-radius: 0.25rem;
+    background-color: rgb(255, 255, 255);
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: #fcc84e;
+    text-decoration:double;
+    
+  }
+

@@ -1,0 +1,157 @@
+/* Estilos generales */
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f6fdf0;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+
+h1 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+p {
+  align-items: center;
+  text-align: center;
+
+}
+
+
+/* Estilos para la barra de navegación */
+.navbar-top {
+  background-color: #333;
+  overflow: hidden;
+  text-align: center;
+  align-items: center;
+}
+
+.navbar-top .login-link {
+  float: right;
+}
+
+
+.navbar-top a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.navbar-top a {
+  transition: background-color 0.8s, color 0.3s;
+}
+
+.navbar-top a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Estilos para el espacio entre el título y la barra de navegación */
+.spacer {
+  height: 20px;
+}
+
+/* Estilos para la introducción */
+
+
+/* Estilos para el formulario */
+.formulario {
+  text-align: center;
+}
+
+.formulario label {
+  display: block;
+  margin-top: 10px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="password"] {
+  width: 200px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+
+.boton form {
+  text-align: center;
+}
+
+.boton input[type="button"] {
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+.navbar-top {
+  background-color: #2f2f2f;
+}
+
+.navbar-top a {
+  color: #f6f6f6;
+}
+
+.navbar-top a:hover {
+  background-color: #caffa6;
+  color: #2f2f2f;
+}
+
+.navbar-top a.active {
+  background-color: #caffa6;
+  color: #2f2f2f;
+}
+
+.formulario input[type="button"],
+.boton input[type="button"] {
+  background-color: #caffa6;
+  color: #2f2f2f;
+}
+
+.formulario input[type="button"]:hover,
+.boton input[type="button"]:hover {
+  background-color: #caffa6;
+  color: #2f2f2f;
+}
+
+.footer-rectangle {
+  height: 50px;
+  background-color: #333;
+}
+
+.intro {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.intro p {
+  line-height: 1.6;
+}
+
+
+.content-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 50px; /* Espacio en la derecha para agregar imágenes */
+  text-align: center;
+  margin-bottom: 30px; /* Espacio entre cada sección */
+}
+
+
+.footer-rectangle {
+  background-color: #333; /* Color del rectángulo en el footer */
+
+}
