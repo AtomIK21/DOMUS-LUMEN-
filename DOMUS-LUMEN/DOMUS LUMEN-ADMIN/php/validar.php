@@ -1,5 +1,6 @@
 
 <?php
+// Este archivo no es funcional, es solamente una prueba de coomo podría ir, y como se conectaría a la base de datos
 // Conexión a la base de datos (reemplaza con tus credenciales)
 $servername = "nombre_servidor";
 $username = "nombre_usuario_bd";
@@ -31,5 +32,8 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
     }
 }
 
+// Este archivo no es funcional, es solamente una prueba de coomo podría ir, y como se conectaría a la base de datos
+
 $conn->close();
 ?>
+
